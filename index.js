@@ -81,7 +81,7 @@ app.delete('/api/assignments/:id',(req,res)=>{
 
 
 app.get('/',(req,res)=>{
-    sendResponse(res);
+    sendResponse(res,"Home page");
 });
 
 function sendResponse(res,body,status=200){
