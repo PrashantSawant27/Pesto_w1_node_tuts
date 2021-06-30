@@ -88,8 +88,8 @@ function sendResponse(res,body,status=200){
     res.status(status).send(body);
 }
 
-const hostname = '127.0.0.1';
+// const hostname = '127.0.0.1';
 const port= process.env.PORT || 3000;
-app.listen(port, hostname, () => {
-    console.log(`Server running at http://${hostname}:${port}/`);
+app.listen(port, () => {
+    console.log(`Server running at ${port}/`);
 });
