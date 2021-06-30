@@ -1,0 +1,23 @@
+{
+  "name": "assignment-backend",
+  "version": "1.0.0",
+  "description": "This is assignment app backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrashantSawant27/Pesto_w1_node_tuts.git"
+  },
+  "author": "Prashant Sawant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrashantSawant27/Pesto_w1_node_tuts/issues"
+  },
+  "homepage": "https://github.com/PrashantSawant27/Pesto_w1_node_tuts#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.9"
+  }
+}
