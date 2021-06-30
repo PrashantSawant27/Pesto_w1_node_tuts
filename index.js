@@ -4,18 +4,18 @@ app.use(express.json());
 
 let assigments=[{
     id:1,
-    title:"Assignment 1",
-    description:"Descrition 1"
+    title:"Search and finalise React js course",
+    description:"Search and finalise React js course"
 },
 {
     id:2,
-    title:"Assignment 2",
-    description:"Descrition 2"
+    title:"Study express js for creating api",
+    description:"Study express js for creating api"
 },
 {
     id:3,
-    title:"Assignment 3",
-    description:"Descrition 3"
+    title:"Study how to host Express     js app on heroku",
+    description:"Study how to host node js app on heroku"
 }];
 
 
